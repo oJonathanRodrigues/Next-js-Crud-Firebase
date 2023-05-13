@@ -26,7 +26,7 @@ export default function Home() {
         {tabelaVisivel ? (
          <> 
         <div className="flex justify-end mb-2">
-          <Botao cor="blue" onClick={novoCliente}>
+          <Botao className="bg-purple-700" onClick={novoCliente}>
               Novo Cliente
           </Botao>
         </div>
